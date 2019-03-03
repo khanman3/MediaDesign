@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Media Design Website Practice</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 540px;
+
+  }
+  .topnav {
+		background-color: #0f0f0a;
+		padding: 25px;
+		overflow: hidden;
+		font-size: 19px;
+	}
+
+	.intro {
+			position: static;
+			padding: 25px;
+			text-align: center;
+			background-color: #F0FFF0;
+			}
+	.about {
+			
+			padding: 45px;
+			text-align: left;
+			font-size: 20px;
+			 }
+
+	.about-pic img {
+			height: 400px;
+			width: 600px;
+			padding: 20px;
+			float: right;
+
+  </style>
+</head>
+<div class="topnav">
+	<nav>
+		<b><a href="index.html">Home</a> &nbsp;
+		<a href="services.html">Services</a></b>
+	</div>
+
+
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="designtable.jpg" alt="E-Commerce" width="900" height="200">
+      <div class="carousel-caption">
+        <h3>E-Commerce</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images.jpg" alt="Photography" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Photography</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="code.jpg" alt="Programming" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Programming</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="about">
+	<div class="about-pic">
+		<img src="businessmeeting.jpg" alt="Office Fun">
+	<h2>About Us</h2>
+	<p> We are a very hardworking company that have been at the forefront
+	of<br>	Web Development in the Anne Arundel area for 10 years now<br>
+	We are located in Annapolis MD and have branches located in England,<br>
+	Boston & New Hamshire</p>
+</div>
+</div>
+</body>
+
+</html>
